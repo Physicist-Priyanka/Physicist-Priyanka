@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka Priyadarsini Singh | Ph.D. Researcher</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --background-color: #ecf0f1;
+            --font-color: #34495e;
+            --card-bg-color: #ffffff;
+            --header-bg-color: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--font-color);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: var(--header-bg-color);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: var(--font-color);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: var(--secondary-color);
+        }
+        section {
+            padding: 60px 20px;
+            border-bottom: 1px solid #bdc3c7;
+        }
+        section:last-of-type {
+            border-bottom: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: var(--card-bg-color);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        .hero .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        .hero .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: var(--font-color);
+            font-weight: 500;
+        }
+        .hero .links a:hover {
+             text-decoration: underline;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 40px;
+        }
+        .card {
+            background: var(--card-bg-color);
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--secondary-color);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -35px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--secondary-color);
+            border: 2px solid var(--card-bg-color);
+        }
+        .timeline-item h3 { margin: 0; }
+        .timeline-item p { margin: 5px 0; }
+        .timeline-item .date {
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+         ul.publication-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul.publication-list li {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--secondary-color);
+            border-radius: 4px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .skill-tag {
+            background: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">PPS</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Priyanka Priyadarsini Singh</h1>
+            <p class="subtitle">Ph.D. Researcher | Material Science & Acoustics</p>
+            <p>Accomplished and highly motivated Ph.D. researcher with a strong background in Material Science, specializing in Acoustics and Sustainable materials.</p>
+            <div class="links">
+                <a href="https://in.linkedin.com/in/priyanka-singh-0977301b4" target="_blank">LinkedIn</a> |
+                <a href="https://orcid.org/0000-0003-4438-319X" target="_blank">Web of Science</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="card">
+                <h3>Profile Summary</h3>
+                <p>Accomplished and highly motivated Ph.D. researcher with a strong background in Material Science, specializing in Acoustics and Sustainable materials. Published 14+ high-impact journal papers and presented at 6+ international conferences. Recognized with prestigious awards, including the Young Scientist Award (2024) by Lindau Nobel Laureate Committee.</p>
+                <h3>Research Interests</h3>
+                <ul>
+                    <li>Development of sustainable acoustic materials for noise reduction.</li>
+                    <li>Biomass-based composites for shielding applications.</li>
+                    <li>Laser processing and surface characterization of materials.</li>
+                    <li>Ultrasonic processing and thermo-acoustic analysis.</li>
+                    <li>Advanced material characterization techniques (FTIR, XRD, SEM, laser speckle).</li>
+                    <li>Environmental applications of waste-derived materials.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="education" class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Ph.D. in Physics [Acoustic Materials]</h3>
+                    <p>Veer Surendra Sai University of Technology, Sambalpur, Odisha</p>
+                    <p class="date">2021 – Present</p>
+                    <p><em>Thesis: Synthesis and Measurement of Hybrid Acoustic Shielding Materials.</em></p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Master of Science [Physics – Material Science]</h3>
+                    <p>Siksha O Anusandhan University, Bhubaneswar, Odisha</p>
+                    <p class="date">2018 – 2020</p>
+                    <p>Graduated with 9.0 GPA (Top 3rd in Merit)</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Bachelor of Science [Physics Hons.]</h3>
+                    <p>Utkal University, Bhubaneswar, Odisha</p>
+                    <p class="date">2015 – 2018</p>
+                     <p>Graduated with 63% (First class with distinction)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="container">
+            <h2>Research & Achievements</h2>
+            <div class="card">
+                <h3>Work Experience</h3>
+                <p><strong>Ph.D. Researcher</strong> | Veer Surendra Sai University of Technology (Feb 2021 – Present)</p>
+                <ul>
+                    <li>Conducted innovative research on acoustic shielding materials, focusing on sustainability and noise reduction.</li>
+                    <li>Developed laser based analysis of material surface.</li>
+                    <li>Supervised 5 Master degree thesis students.</li>
+                </ul>
+                <p><strong>Project Fellow</strong> | Department of Science and Technology, Govt. of Odisha (Dec 2020 – Dec 2023)</p>
+                 <ul>
+                    <li>Led a project on the synthesis and measurement of hybrid acoustic shielding materials.</li>
+                    <li>Developed innovative methods for utilizing organic waste and biomass in acoustic material fabrication.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Key Research Achievements</h3>
+                <div class="grid">
+                    <div>
+                        <h4>Scientific Advancements</h4>
+                        <ul>
+                            <li>Developed four new eco-friendly acoustic composites using natural fibers.</li>
+                            <li>Achieved sound absorption efficiency with a coefficient of 0.98 at 3000 Hz.</li>
+                            <li>Increased tensile strength by 69.9% after surface modification.</li>
+                            <li>Improved hardness by 45% in treated hybrid composites.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Economic & Environmental Impact</h4>
+                         <ul>
+                            <li>Developed cost-effective bio-based composites (70% lower cost than synthetic).</li>
+                            <li>Scalable potential for applications in building acoustics, automotive, and industrial noise control.</li>
+                            <li>Implemented a circular economy approach by utilizing agricultural waste.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="publications" class="container">
+            <h2>Publications</h2>
+            <div class="card">
+                <h3>Journal Papers</h3>
+                <ul class="publication-list">
+                    <li>Singh PP, Dash AK, Nath G. Dielectric characterization analysis of natural fiber-based hybrid composite for microwave absorption in X-band frequency. Applied Physics A. 2024; 130(3):171.</li>
+                    <li>Yadav A, Singh PP, Nath P. Graphene-induced carbon-based fiber composite as microwave absorber for X-band frequency application. Journal of Microwave Power and Electromagnetic Energy. 2023; 57(4):264–77.</li>
+                    <li>Singh PP, Nath G. Laser-induced surface analysis of acoustic materials for noise reduction. Laser Physics. 2021; 31(7):076002.</li>
+                    <li>Singh PP, Nath G. Synthesis and analysis of biomass-based green acoustic shielding material. Journal of Scientific & Industrial Research. 2021; 80(7):630–7.</li>
+                </ul>
+                 <p style="text-align:center;"><em>(A selection of recent publications. Full list available on Web of Science.)</em></p>
+            </div>
+             <div class="card">
+                <h3>Patent</h3>
+                <p><strong>Vetiver Root Based Sustainable Eco friendly Electro-Acoustic Stealth Material</strong><br>
+                Inventors: PP Singh, G Nath<br>
+                Publication Date: 2023/11/4 | Indian Patent Number: 44/2022
+                </p>
+            </div>
+        </section>
+
+        <section id="awards" class="container">
+            <h2>Awards & Recognitions</h2>
+            <div class="grid">
+                <div class="card"><strong>Young Scientist 2024</strong><br>DST, India and Lindau Nobel Laureate Council</div>
+                <div class="card"><strong>Dr. S Parthasarathy Memorial Award 2024</strong><br>Ultrasonics Society of India</div>
+                <div class="card"><strong>ISSWM Excellence Award 2023</strong><br>International Society of Waste Management, Air and Water (ISWMAW)</div>
+                <div class="card"><strong>Young Scientist Award 2023</strong><br>Acoustical Society of India</div>
+                 <div class="card"><strong>International Best Researcher Award 2022</strong><br>ISSN International Science & Technology Awards and Congress</div>
+                <div class="card"><strong>Young Researcher Award 2022</strong><br>Institute of Scholars</div>
+            </div>
+        </section>
+        
+        <section id="skills" class="container">
+            <h2>Skills & Expertise</h2>
+             <div class="card">
+                <h3>Technical Skills</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">Acoustic Properties Analysis</span>
+                    <span class="skill-tag">X-ray Diffraction (XRD)</span>
+                    <span class="skill-tag">Scanning Electron Microscopy (SEM)</span>
+                    <span class="skill-tag">Surface Characterization</span>
+                    <span class="skill-tag">Laser Sensor Applications</span>
+                    <span class="skill-tag">Ultrasonic Processing</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Software & Tools</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">Origin Pro</span>
+                    <span class="skill-tag">MATLAB</span>
+                    <span class="skill-tag">X'Pert Highscore</span>
+                    <span class="skill-tag">Holmarc Wave Analyzer</span>
+                    <span class="skill-tag">Rescu Software (DFT)</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Priyanka Priyadarsini Singh</p>
+            <p>Odisha–753012, India</p>
+            <p>Email: <a href="mailto:priyankasinghctc4@gmail.com" style="color:white;">priyankasinghctc4@gmail.com</a> | Phone: +91-8342806876</p>
+             <p><a href="https://in.linkedin.com/in/priyanka-singh-0977301b4" target="_blank" style="color:white;">LinkedIn</a> |
+                <a href="https://orcid.org/0000-0003-4438-319X" target="_blank" style="color:white;">Web of Science</a></p>
+            <br>
+            <p>&copy; 2025 Priyanka Priyadarsini Singh. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+Add initial website

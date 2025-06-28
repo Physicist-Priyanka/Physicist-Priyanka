@@ -1,12 +1,9 @@
 ## Hi there 👋
 
-<!--Great! Here's a ready-to-use professional `README.md` file for your GitHub portfolio repository:
-
----
 
 ## 📄 `README.md` (for your `priyankasingh.github.io` repo)
 
-```markdown
+
 # Priyanka Priyadarsini Singh – Academic Portfolio Website
 
 Welcome to the personal academic website of **Priyanka Priyadarsini Singh**, a Ph.D. Researcher specializing in **Material Science**, **Acoustics**, and **Sustainable Composites**.
